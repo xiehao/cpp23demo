@@ -19,9 +19,7 @@ set_target_properties(my_app PROPERTIES
     CXX_EXPORT_COMPILE_COMMANDS ON
 )
 
-# 加入标准库实验性支持，解决 Windows/macOS 下标准库的连接错误
+# 加入标准库实验性支持，解决 Windows 下标准库的连接错误
 if(CMAKE_HOST_WIN32)
     target_link_libraries(my_app stdc++exp)
-elseif(CMAKE_HOST_APPLE)
-    # TODO
 endif()
