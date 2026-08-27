@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 4.3.0)
 
 # 开启对导入标准库的实验性支持
-set(CMAKE_EXPERIMENTAL_CXX_IMPORT_STD "451f2fe2-a8a2-47c3-bc32-94786d8fc91b")
+set(CMAKE_EXPERIMENTAL_CXX_IMPORT_STD "f35a9ac6-8463-4d38-8eec-5d6008153e7d")
 
 # 项目名称和语言
 project(ImportStdExample LANGUAGES CXX)
